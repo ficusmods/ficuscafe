@@ -23,6 +23,7 @@
     text-align: center;
     font-weight: bold;
     padding: 0px 8px;
+    padding-top: 4px;
 }
 
 .MainNav a:hover {
