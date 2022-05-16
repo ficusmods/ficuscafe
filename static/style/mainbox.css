@@ -1,0 +1,43 @@
+.MainBox {
+    background-color: #bdae93;
+    display: inline-block;
+    max-width: 55vw;
+    min-width: 55vw;
+    margin: auto;
+    padding: 0px 2% 4% 2%;
+    border: 2px solid #a89984;
+    border-radius: 12px;
+}
+
+.MainBox a {
+    text-decoration: none;
+    color: brown;
+}
+
+.MainBox a:visited {
+    text-decoration: none;
+    color: brown;
+}
+
+.MainBox a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+#MainNavLine {
+    width: 65%;
+    height: 2px;
+    margin: 12px auto 24px auto;
+    border: 0px;
+    border-radius: 15px;
+    background-color: #8a7962;
+}
+
+.MainBox hr {
+    width: 40%;
+    height: 2px;
+    margin: 12px auto;
+    border: 0px;
+    border-radius: 15px;
+    background-color: #8a7962;
+}

@@ -1,0 +1,15 @@
+{
+    "id": "BAS_ForcePhysics",
+    "game": "Blade & Sorcery",
+    "title": "ForcePhysics",
+    "version": "v1.0",
+    "dateLastUpdate": "2021-12-12",
+    "links": {
+      "nexus": "https://www.nexusmods.com/bladeandsorcery/mods/5201",
+      "mirror": "https://drive.google.com/file/d/1tXCYpBj_CHJyCURU_9GSigMI8WQlIVmW/view?usp=sharing",
+      "source": "https://github.com/ficusmods/BAS_ForcePhysics"
+    },
+    "hasArticle": false,
+    "articleID": "",
+    "summary": "Disables physics culling when the NPC isn't hidden"
+}

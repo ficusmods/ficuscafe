@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    #include $includes.CommonHead
+</head>
+
+<body>
+    <main>
+        <div class="MainBox">
+            #include $includes.TitleArea
+            <div class="ModsContent">
+                #for $game in $mods
+                <div class="ModGameSection">
+                <h1><span>$game.title</span></h1>
+                #for $mod in $game.mods
+                <div class="ModEntry">
+                    <h2>$mod.title:</h2>
+                    <p class="ModVersion">$mod.dateLastUpdate - $mod.version</p>
+                    <p class="ModSummary">$mod.summary</p>
+                    <p class="ModLinks"><a href="$mod.links.nexus">nexus</a>
+                        <a href="$mod.links.mirror">mirror</a>
+                        <a href="$mod.links.source">src</a>
+                        #if $mod.hasArticle
+                        <a href="/article/$mod.articleID/main.html">desc</a>
+                        #end if
+                    </p>
+                </div>
+                #end for
+                </div>
+                #end for
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,84 @@
+
+.ModsContent {
+    margin-top: 48px;
+}
+
+.ModGameSection h1 {
+    background-color: #8a7962;
+    border-radius: 25px;
+    line-height: 1px;
+    margin: 24px 0px;
+    font-family: monospace;
+    font-size: medium;
+}
+
+.ModGameSection h1 span {
+    background-color: #bdae93;
+    padding: 4px 12px;
+    text-align: center;
+    font-size: medium;
+    font-family: monospace;
+    color: #313131;
+    background-color: #7c6f64;
+    border: 2px solid #645a52;
+    border-radius: 25px;
+}
+
+.ModEntry h2 {
+    margin: 0px 0px;
+    font-size: large;
+    color: #d48b5b;
+}
+
+.ModEntry {
+    padding: 4px;
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 30%;
+    min-width: 30%;
+    margin: 4px 8px;
+    font-family: monospace;
+    font-size: medium;
+    border-top: 0px;
+    border-bottom: 0px;
+    background-color: #574c47;
+    border: 2px solid black;
+    border-radius: 14px;
+}
+
+.ModEntry p {
+    margin: 0px;
+    padding: 2px 8px;
+    color: #f7f1dd
+}
+
+.ModEntry .ModVersion {
+    color:#83a598;
+}
+
+.ModEntry span {
+    font-size: small;
+}
+
+.ModEntry .ModLinks {
+    margin-top: 12px;
+}
+
+.ModEntry a {
+    text-decoration: underline;
+    color: white;
+    font-weight: bold;
+    padding: 2px 4px;
+}
+
+.ModEntry a:visited {
+    color: white;
+    text-decoration: underline;
+}
+
+.ModEntry a:hover{
+    color: lightblue;
+    text-decoration: underline;
+}
+
+

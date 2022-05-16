@@ -1,0 +1,15 @@
+{
+    "id": "BAS_NonSnappingLimbs",
+    "game": "Blade & Sorcery",
+    "title": "Non-Snapping Limbs",
+    "version": "v1.6",
+    "dateLastUpdate": "2022-04-09",
+    "links": {
+      "nexus": "https://www.nexusmods.com/bladeandsorcery/mods/4930",
+      "mirror": "https://drive.google.com/file/d/1pY4q4BpdsM3ubXnYj93MmxhOKh-jaiG4/view?usp=sharing",
+      "source": "https://github.com/ficusmods/BAS_NonSnappingLimbs"
+    },
+    "hasArticle": false,
+    "articleID": "",
+    "summary": "Disables reattachment of limbs that were cut off if the NPC is still alive."
+}

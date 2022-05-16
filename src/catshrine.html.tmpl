@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  #include $includes.CommonHead
+</head>
+
+<body>
+  <main>
+    <div class="MainBox">
+      #include $includes.TitleArea
+      <p>This is where you pay respect to remarkable cat pictures.</p>
+      <div class="CatPics">
+      #for $pic in $catPictures
+          <img src="$pic.imagePath"/>
+      #end for
+      </div>
+    </div>
+  </main>
+</body>
+
+</html>

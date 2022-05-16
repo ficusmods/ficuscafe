@@ -1,0 +1,15 @@
+{
+    "id": "BAS_UndyingSpell",
+    "game": "Blade & Sorcery",
+    "title": "UndyingSpell",
+    "version": "v1.3",
+    "dateLastUpdate": "2021-12-17",
+    "links": {
+      "nexus": "https://www.nexusmods.com/bladeandsorcery/mods/4933",
+      "mirror": "https://drive.google.com/file/d/1sv4Jey1ZRjtuS0UAUvLc8PNwkfqEyjsN/view?usp=sharing",
+      "source": "https://github.com/ficusmods/BAS_UndyingSpell"
+    },
+    "hasArticle": false,
+    "articleID": "",
+    "summary": "Make an enemy hit by the bolt invincible. Use an imbued stab to the neck or head to kill them."
+}

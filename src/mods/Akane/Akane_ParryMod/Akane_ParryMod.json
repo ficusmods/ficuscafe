@@ -1,0 +1,15 @@
+{
+    "id": "Akane_ParryMod",
+    "game": "Akane",
+    "title": "ParryMod",
+    "version": "v1.2",
+    "dateLastUpdate": "2022-02-05",
+    "links": {
+      "nexus": "https://www.nexusmods.com/akane/mods/2",
+      "mirror": "https://drive.google.com/file/d/13GPIUhiDFUuQtsfB3-r7gKkPQrbzYJDJ/view?usp=sharing",
+      "source": "https://github.com/ficusmods/Akane_ParryMod"
+    },
+    "hasArticle": false,
+    "articleID": "",
+    "summary": "Reworks the guard mechanic into a parry"
+}

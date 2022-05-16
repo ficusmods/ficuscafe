@@ -1,0 +1,15 @@
+{
+    "id": "BAS_AcidSpell",
+    "game": "Blade & Sorcery",
+    "title": "AcidSpell",
+    "version": "v1.1",
+    "dateLastUpdate": "2022-04-25",
+    "links": {
+      "nexus": "https://www.nexusmods.com/bladeandsorcery/mods/5983",
+      "mirror": "https://drive.google.com/file/d/1S9xXukIgq7VVPR9GZSjenW_U3ygVuRp-/view?usp=sharing",
+      "source": "https://github.com/ficusmods/BAS_AcidSpell"
+    },
+    "hasArticle": false,
+    "articleID": "",
+    "summary": "Dissolves enemy armor parts"
+}

@@ -1,0 +1,15 @@
+{
+    "id": "Akane_ModLoader",
+    "game": "Akane",
+    "title": "ModLoader",
+    "version": "v1.0",
+    "dateLastUpdate": "2022-02-03",
+    "links": {
+      "nexus": "https://www.nexusmods.com/akane/mods/1",
+      "mirror": "https://drive.google.com/file/d/1E7qKxIZKuwheW08-FOzO7EIZ9vhBmY2H/view?usp=sharing",
+      "source": "https://github.com/ficusmods/Akane_IPA"
+    },
+    "hasArticle": false,
+    "articleID": "",
+    "summary": "Allows injecting code into Akane"
+}

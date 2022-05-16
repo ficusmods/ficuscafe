@@ -1,0 +1,24 @@
+
+.BodyTitle {
+    margin: 15px auto;
+    padding: 4px 0px 0px 0px;
+}
+
+.BodyTitle a {
+    color: #313131;
+    font-weight: bold;
+}
+
+.BodyTitle a:visited {
+    text-decoration: none;
+    color: #313131;
+}
+
+.BodyTitle a:hover {
+    color: #cfc9c0;
+    text-decoration: none;
+}
+
+.BodyTitle a:active {
+    text-decoration: none;
+}

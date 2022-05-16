@@ -1,0 +1,15 @@
+{
+    "id": "BAS_DungeonConfigurator",
+    "game": "Blade & Sorcery",
+    "title": "DungeonConfigurator",
+    "version": "v1.6",
+    "dateLastUpdate": "2022-04-29",
+    "links": {
+      "nexus": "https://www.nexusmods.com/bladeandsorcery/mods/5032",
+      "mirror": "https://drive.google.com/file/d/1GF6LKZApXW-9V9nssfGOqsy9nj-Wa-Uc/view?usp=sharing",
+      "source": "https://github.com/ficusmods/BAS_DungeonConfigurator"
+    },
+    "hasArticle": false,
+    "articleID": "",
+    "summary": "Allows configuring the type of enemies, the enemy number, player spells & inventory, and generator seed before embarking. Some of it's features can be used on any map."
+}

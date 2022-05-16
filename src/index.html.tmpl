@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  #include $includes.CommonHead
+</head>
+
+<body>
+  <main>
+    <div class="MainBox">
+      #include $includes.TitleArea
+      <div class="NewsBox">
+        #for $newsBlock in $news
+        <div class="NewsMajorDate">
+          <h1><span>$newsBlock.date</span></h1>
+        </div>
+          #for $newsEntry in $newsBlock.entries
+            <div class="NewsEntry">
+            <p><span class="NewsEntryDate">$newsEntry.date</span>$newsEntry.headline
+              #if $newsEntry.hasArticle
+              <span class="NewsEntryLink">(
+                <a href="/article/$newsEntry.articleID/main.html">read</a>
+              )</span></p>
+              #end if
+            </div>
+          #end for
+        #end for
+      </div>
+    </div>
+  </main>
+</body>
+
+</html>
