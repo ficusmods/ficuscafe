@@ -2,6 +2,11 @@
 GENERATOR=../src/generator/compile.py
 TEMPLATE_DIR=../src
 
+if [ -f README ]; then
+    echo "I don't think you want to run this from the root"
+    exit 1
+fi
+
 rm -r *
 
 cp -r ../static/* .
