@@ -21,10 +21,9 @@
 title: ficus.cafe
 email: 
 description: >- # this means to ignore newlines until "baseurl:"
-  Side-kick to ficus cafe. My personal website about programming and modding projects.
+  My personal website about programming and modding projects.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "ficus.cafe" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: _
 github_username:  ficusmods
 
 # Build settings
