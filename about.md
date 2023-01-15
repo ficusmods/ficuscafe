@@ -17,6 +17,6 @@ This website is a collection of my works and news about upcoming ones.
 </div>
 
 Site generated via [Jekyll](https://jekyllrb.com) and hosted by:  
-<img src="/assets/img/about/neocities.png"/>  
+<a href="https://neocities.org/"><img src="/assets/img/about/neocities.png"/></a>  
 source code available [here](https://github.com/ficusmods/ficuscafe).  
 <a class="path-to-shrine" href="/shrine">shrine</a>
