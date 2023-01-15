@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+<div class="shrine">
+  <h2>Pay your respects to these remarkable cat pictures.</h2>
+  <div class="shrine-pics">
+  {% for file in site.static_files %}
+    {% if file.path contains 'img/shrine' %}
+        <img src="{{ site.baseurl }}{{ file.path }}" alt="cat" />
+    {% endif %}
+  {% endfor %}
+  </div>
+</div>

@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+<div class="mods">
+  {{ content }}
+
+  {%- for game_hash in site.data.mods -%}
+  {%- assign game = game_hash[1] -%}
+    <div class="mods-game">
+    <h1><span>{{ game_hash[0] }}</span></h1>
+    {%- for mod in game -%}
+      <div class="mods-entry">
+        <h2>{{ mod.title }}:</h2>
+        <p class="mod-version">{{ mod.dateLastUpdate }} - {{ mod.version }}</p>
+        <p class="mod-links"><a href="{{ mod.links.source }}">src</a>
+          <a href="{{ mod.links.nexus }}">nexus</a>
+          <a href="{{ mod.links.mirror }}">mirror</a>
+        </p>
+        <p class="mod-summary">{{ mod.summary }}</p>
+        {%- if mod.article != null -%}
+          <a  class="mod-articleLink" href="/jekyll/mods/{{ game_hash[0] }}/0000/01/01/{{ mod.article }}.html">more...</a>
+        {%- endif -%}
+      </div>
+    {%- endfor -%}
+  </div>
+  {%- endfor -%}
+</div>

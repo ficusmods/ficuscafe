@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+// Define defaults for each variable.
+
+$base-font-family: sans-serif, verdana, monospace, SimSun, SimHei, WenQuanYi, Microsoft YaHei, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
+$base-font-size:   12px !default;
+$base-font-weight: 400 !default;
+$small-font-size:  $base-font-size * 0.875 !default;
+$base-line-height: 1.5 !default;
+
+$spacing-unit:     $base-font-size !default;
+
+$text-color:       #313131 !default;
+$background-color: #282828 !default;
+$mainbox-color: #bdae93 !default;
+$link-color:      brown !default;
+
+$grey-color:       #5c5c5c !default;
+$grey-color-light: lighten($grey-color, 40%) !default;
+$grey-color-dark:  darken($grey-color, 25%) !default;
+
+$table-text-align: left !default;
+
+// Width of the content area
+$content-width:    800px !default;
+
+$on-palm:          600px !default;
+$on-laptop:        800px !default;
+
+
+@mixin relative-font-size($ratio) {
+  font-size: $base-font-size * $ratio;
+}
+
+// Import partials.
+@import
+  "ficuscafe/base",
+  "ficuscafe/layout",
+  "ficuscafe/syntax-highlighting"
+;

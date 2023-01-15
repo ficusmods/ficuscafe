@@ -1,0 +1,4 @@
+---
+layout: shrine
+permalink: /shrine/
+---

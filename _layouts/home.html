@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+<div class="home">
+  {{ content }}
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+  {%- if site.posts.size > 0 -%}
+    <ul class="post-list">
+      {%- assign front_posts = site.posts | where: "hidden", false -%}
+      {%- for post in front_posts -%}
+      <li>
+        {%- assign date_format = "%Y-%m-%d" -%}
+        <span class="post-meta">{{ post.date | date: date_format }}</span>
+        {%- if post.hasArticle -%}<a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+        {%- else -%}<span class="post-short">{{ post.title | escape }}</span>
+        {%- endif -%}
+        {%- if site.show_excerpts -%}
+          {{ post.excerpt }}
+        {%- endif -%}
+      </li>
+      {%- endfor -%}
+    </ul>
+  {%- endif -%}
+
+</div>

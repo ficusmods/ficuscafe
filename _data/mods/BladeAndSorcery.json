@@ -1,0 +1,100 @@
+[
+  {
+    "id": "BAS_AcidSpell",
+    "game": "Blade & Sorcery",
+    "title": "AcidSpell",
+    "version": "v1.3",
+    "dateLastUpdate": "2022-05-20",
+    "links": {
+      "nexus": "https://www.nexusmods.com/bladeandsorcery/mods/5983",
+      "mirror": "https://drive.google.com/drive/folders/1OgyONBu_eVuA8c66N7I32jbxVNtgSGCm?usp=sharing",
+      "source": "https://github.com/ficusmods/BAS_AcidSpell"
+    },
+    "article": null,
+    "summary": "Dissolves enemy armor parts"
+  },
+  {
+    "id": "BAS_DungeonConfigurator",
+    "game": "Blade & Sorcery",
+    "title": "DungeonConfigurator",
+    "version": "U11",
+    "dateLastUpdate": "2023-01-08",
+    "links": {
+      "nexus": "https://www.nexusmods.com/bladeandsorcery/mods/5032",
+      "mirror": "https://drive.google.com/drive/folders/1cudAfFu67Y_2Pt8Z2BEWk8ttY2zRcnOS?usp=sharing",
+      "source": "https://github.com/ficusmods/BAS_DungeonConfigurator"
+    },
+    "article": null,
+    "summary": "Allows configuring the type of enemies, the enemy number, player spells & inventory, and generator seed before embarking."
+  },
+  {
+    "id": "BAS_GrabFixes",
+    "game": "Blade & Sorcery",
+    "title": "GrabFixes",
+    "version": "U11",
+    "dateLastUpdate": "2023-01-08",
+    "links": {
+      "nexus": "https://www.nexusmods.com/bladeandsorcery/mods/6069",
+      "mirror": "https://drive.google.com/drive/folders/1fpZ8QPrrQ4KBloX0KPFuHyar_mztKcdN?usp=sharing",
+      "source": "https://github.com/ficusmods/BAS_GrabFixes"
+    },
+    "article": null,
+    "summary": "Fixes grabbing related issues"
+  },
+  {
+    "id": "BAS_NonSnappingLimbs",
+    "game": "Blade & Sorcery",
+    "title": "Non-Snapping Limbs",
+    "version": "U11",
+    "dateLastUpdate": "2023-01-08",
+    "links": {
+      "nexus": "https://www.nexusmods.com/bladeandsorcery/mods/4930",
+      "mirror": "https://drive.google.com/drive/folders/18o6LIEiPtoz6QUB_6RIPrYzi0OuVL17G?usp=sharing",
+      "source": "https://github.com/ficusmods/BAS_NonSnappingLimbs"
+    },
+    "article": null,
+    "summary": "Disables reattachment of limbs that were cut off if the NPC is still alive."
+  },
+  {
+    "id": "BAS_Scavenger",
+    "game": "Blade & Sorcery",
+    "title": "Scavenger",
+    "version": "U11",
+    "dateLastUpdate": "2023-01-08",
+    "links": {
+      "nexus": "https://www.nexusmods.com/bladeandsorcery/mods/6084",
+      "mirror": "https://drive.google.com/drive/folders/1RxYaDbby7hOSk4zSZQzq3mFjo2SpxlND?usp=sharing",
+      "source": "https://github.com/ficusmods/BAS_Scavenger"
+    },
+    "article": null,
+    "summary": "Creates item spots at de-spawned items which you can interact with to respawn the item."
+  },
+  {
+    "id": "BAS_UndyingSpell",
+    "game": "Blade & Sorcery",
+    "title": "UndyingSpell",
+    "version": "U11",
+    "dateLastUpdate": "2023-01-08",
+    "links": {
+      "nexus": "https://www.nexusmods.com/bladeandsorcery/mods/4933",
+      "mirror": "https://drive.google.com/drive/folders/1I8gm43GHLFnhB5H71iBRVPLDs5xoCWML?usp=sharing",
+      "source": "https://github.com/ficusmods/BAS_UndyingSpell"
+    },
+    "article": null,
+    "summary": "Make an enemy hit by the bolt invincible. Use an imbued stab to the neck or head to kill them."
+  },
+  {
+    "id": "BAS_UndyingWave",
+    "game": "Blade & Sorcery",
+    "title": "UndyingWave",
+    "version": "U11",
+    "dateLastUpdate": "2023-01-08",
+    "links": {
+      "nexus": "https://www.nexusmods.com/bladeandsorcery/mods/4961",
+      "mirror": "https://drive.google.com/drive/folders/1TxBkA85bKC4dlTjMqGzoB6PRlMaXHtnK?usp=sharing",
+      "source": "https://github.com/ficusmods/BAS_UndyingWave"
+    },
+    "article": null,
+    "summary": "Waves of undying enemies."
+  }
+]
