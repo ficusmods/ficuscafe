@@ -1,0 +1,15 @@
+[
+    {
+        "id": "Stationeers_ColorblindPalette",
+        "title": "ColorblindPalette",
+        "version": "v0.1",
+        "dateLastUpdate": "2023-03-29",
+        "links": {
+          "nexus": "https://www.nexusmods.com/stationeers/mods/9",
+          "mirror": "https://drive.google.com/drive/folders/11H5sOtKpkCexxl5fTjHe1sBiLapBTFyt?usp=sharing",
+          "source": "https://github.com/ficusmods/Stationeers_ColorblindPalette"
+        },
+        "article": null,
+        "summary": "Replaces some colors to make them more distinguishable for colorblind people"
+    }
+]
